@@ -70,17 +70,21 @@
   * (likelihood bernoulli)reward is either 1 or 0. then the mean of rewards of each action is beta distribution: update beta(a, b) -> a = a + reward, b = b + 1 - reward
   * assume likelihhood is gaussian distributed. 1 known precision, unknown mean -> how to calculate posterior 2. unknown precision, known mean 3. unknown precision, unknown mean
 
-### 2. Solving MDPs using dynamic programming:
+### 2. Solving MDPs using dynamic programming (known model):
 
 - [ ] Bellman expectation equation
 
-![Alt Text](files/NN_gradient_descent.png)
+![Alt Text](files/bellman_expectation_equation.png)
 
 - [ ] Bellman optimiality equation
+![Alt Text](files/bellman_optimality_equation.png)
 
 - [ ] algorithms for evaluation and control
+![Alt Text](files/solve_mdp_using_dp.png)
 
 ### 3. Model-free RL:
+
+
 
 
 
