@@ -74,10 +74,10 @@
 
 - [ ] Bellman expectation equation
 
-![Alt Text](files/bellman_expectation_equation.png)
+![Alt Text](files/bellman_expectation_equations.png)
 
 - [ ] Bellman optimiality equation
-![Alt Text](files/bellman_optimality_equation.png)
+![Alt Text](files/bellman_optimality_equations.png)
 
 - [ ] algorithms for evaluation and control
 ![Alt Text](files/solve_mdp_using_dp.png)
