@@ -80,7 +80,7 @@
 ![Alt Text](files/bellman_optimality_equations.png)
 
 - [ ] algorithms for evaluation and control
-![Alt Text](files/solve_mdp_using_dp.png)
+![Alt Text](files/sovle_mdp_using_dp.png)
 
 ### 3. Model-free RL:
 
