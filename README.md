@@ -82,7 +82,61 @@
 - [ ] algorithms for evaluation and control
 ![Alt Text](files/sovle_mdp_using_dp.png)
 
-### 3. Model-free RL:
+### 3. Monte carlo tree search
+
+- [ ] algorithms
+  * selection: select the action with highest score: score = Q + beta * pi(s) / (1 + n)
+  * expansion: according to policy pi, randomly select one action
+  * evaluation: fast roll-out, select action according to policy pi til the end of game. calculate the value: (v + r) / 2
+  * backup: update Q using (v + r) / 2
+
+### 3. value based learning
+
+- [ ] DQN
+  * experience replay
+  * prioritized experience replay
+  * dueling net: learn a value function plus a advantage.   Q = value + advantage - max(advantage); loss = Q_target - Q
+  * noisy net:
+  * off-policy vs. on-policy
+  * double DQN
+
+- [ ] Sarsa
+  * difference between Q learning and SARSA: SARSA is to train action value function for a certain policy pi; Q learning is to train optimal Q value function
+  * action function estimation is used as critic in actor critic algorithm
+![Alt Text](files/SARSA.png)
+
+### policy based learning
+
+- [ ] Reinforce
+- [ ] Reinforce with baseline
+- [ ] Actor-Critic
+- [ ] Advantage Actor-Critic (A2c)
+- [ ] Trust region policy optimization
+- [ ] entropy regularization
+- [ ] Continuious action:
+  * deterministic policy gradient (DPG)
+  * twin delayed deep deterministic policy gradient (TD3)
+  * Gaussion distribution policy
+
+- [ ] partially observable envirionment
+- [ ] imitation learning
+
+
+### multi-agent
+
+- [ ] types:
+
+  * fully cooperative
+  * fully competetive
+  * mixed
+  * self-insterested
+
+
+- [ ] approaches:
+
+  * Decentralized
+  * Centralized
+  * Centralized training with decentralized execution
 
 
 
