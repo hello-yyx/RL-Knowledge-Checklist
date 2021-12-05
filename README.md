@@ -41,7 +41,7 @@
   * Learning:The environment is initially unknown and the agent interacts with the environment
   * A model of the environment is given (or learnt) and the agent plans in this model (without external interaction)
 
-### 1. exploration and exploitation:
+### 2. exploration and exploitation:
 
 - [ ] bandits
   * only have a single environment state. The action dont have long-term effects and cannot change the state. reward is only related to action choice
@@ -70,7 +70,7 @@
   * (likelihood bernoulli)reward is either 1 or 0. then the mean of rewards of each action is beta distribution: update beta(a, b) -> a = a + reward, b = b + 1 - reward
   * assume likelihhood is gaussian distributed. 1 known precision, unknown mean -> how to calculate posterior 2. unknown precision, known mean 3. unknown precision, unknown mean
 
-### 2. Solving MDPs using dynamic programming (known model):
+### 3. Solving MDPs using dynamic programming (known model):
 
 - [ ] Bellman expectation equation
 
@@ -82,7 +82,7 @@
 - [ ] algorithms for evaluation and control
 ![Alt Text](files/sovle_mdp_using_dp.png)
 
-### 3. Monte carlo tree search
+### 4. Monte carlo tree search
 
 - [ ] algorithms
   * selection: select the action with highest score: score = Q + beta * pi(s) / (1 + n)
@@ -90,7 +90,7 @@
   * evaluation: fast roll-out, select action according to policy pi til the end of game. calculate the value: (v + r) / 2
   * backup: update Q using (v + r) / 2
 
-### 3. value based learning
+### 5. value based learning
 
 - [ ] DQN
   * experience replay
@@ -105,13 +105,14 @@
   * action function estimation is used as critic in actor critic algorithm
 ![Alt Text](files/SARSA.png)
 
-### policy based learning
+### 6. policy based learning
 
 - [ ] Reinforce
 - [ ] Reinforce with baseline
 - [ ] Actor-Critic
 - [ ] Advantage Actor-Critic (A2c)
-- [ ] Trust region policy optimization
+- [ ] Trust region policy optimization (TRPO)
+- [ ] Proximal policy optimization (PPO)
 - [ ] entropy regularization
 - [ ] Continuious action:
   * deterministic policy gradient (DPG)
@@ -122,7 +123,7 @@
 - [ ] imitation learning
 
 
-### multi-agent
+### 7. multi-agent
 
 - [ ] types:
 
